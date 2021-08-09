@@ -1,3 +1,4 @@
+[![Elixir CI](https://github.com/David-Nascimento/NLW-Elixir/actions/workflows/elixir-v2.yml/badge.svg)](https://github.com/David-Nascimento/NLW-Elixir/actions/workflows/elixir-v2.yml)
 # Wabanex
 
 To start your Phoenix server:
