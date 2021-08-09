@@ -6,5 +6,4 @@ defmodule Wabanex.Users.Create do
     |> User.changeset()
     |> Repo.insert()
   end
-
 end

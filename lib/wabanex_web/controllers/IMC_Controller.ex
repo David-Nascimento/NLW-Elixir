@@ -2,6 +2,7 @@ defmodule WabanexWeb.IMCController do
   use WabanexWeb, :controller
 
   alias Wabanex.IMC
+
   def index(conn, params) do
     params
     |> IMC.calculate()
@@ -17,5 +18,4 @@ defmodule WabanexWeb.IMCController do
     |> put_status(status)
     |> json(%{result: result})
   end
-
 end

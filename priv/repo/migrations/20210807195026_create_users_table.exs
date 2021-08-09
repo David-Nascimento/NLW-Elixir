@@ -9,7 +9,7 @@ defmodule Wabanex.Repo.Migrations.CreateUsersTable do
 
       timestamps()
     end
-    create unique_index(:users, [:email])
 
+    create unique_index(:users, [:email])
   end
 end
